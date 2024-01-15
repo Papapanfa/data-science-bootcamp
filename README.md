@@ -1,5 +1,5 @@
 # Data Science Bootcamp Batch 9
 
-I'm learnign data science bootcamp. There are 10 sprintss in the program.
-
+Electrical Engineer
+I'm learning data science bootcamp. Driven by a passion for leveraging data analytics to drive business growth and optimize revenue,
 
