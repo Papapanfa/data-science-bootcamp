@@ -1,0 +1,55 @@
+class DataAnalyst:
+  def __init__(self, name, position, level, city):
+      self.name = name
+      self.position = position
+      self.level = level
+      self.city = city
+
+  def callname(self, name,position,level,city):
+      print(f"Hi! {name}, Position: {position}, Level: {level}, City: {city}")
+
+  def project_period(self, normal_day, ex_day):
+      print(f"This project period are {normal_day} days")       
+      print(f"\nand will expand in {ex_day} days")
+      total_days = normal_day + ex_day
+      print(f"\nProject must completed in {total_days} days")
+
+  def calculate_task(self, val1, val2, val3):
+      print(f"All numbers [{val1}, {val2}, {val3}]")
+      mean_nums = round(((val1+val2+val3)/3),2)
+      total_nums = val1+val2+val3
+      if (val1 > val2) & (val1 > val3) & (val1 != val3):
+          print(f"Max number is {val1}")
+      elif (val1 < val2) & (val3 < val2) & (val2 != val1):
+          print(f"Max number is {val2}") 
+      elif (val1 < val3) & (val2 < val3) & (val2 != val3):
+          print(f"Max number is {val3}")
+      else: 
+          if val1 == val2 & val1 < val3:
+              print(f"Max number is {val3}")
+          elif val1 == val2 & val1 > val3:
+              print(f"Max number is {val1}")
+          elif val1 == val3 & val1 < val2:
+              print(f"Max number is {val2}")
+          elif val1 == val3 & val1 > val2:
+              print(f"Max number is {val1}")
+          elif val2 == val3 & val2 < val1:
+              print(f"Max number is {val1}")
+          else:
+              print(f"Max number is {val3}")
+
+      print(f"mean: {mean_nums}")
+      print(f"\ntotal: {total_nums}")
+
+
+# test
+id1 = DataAnalyst("Jessy","Data Engineer","Supervisor","Ohio")
+print(id1.name,",", id1.position)
+
+id2 = DataAnalyst("Alex","DA","Junior","LA")
+id2.callname("Alex","DA","Junior","LA")
+print(id2.name,",",id2.city)
+
+id2.project_period(10,5)
+
+id1.calculate_task(20,10,15)
