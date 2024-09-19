@@ -1,5 +1,6 @@
-# Data Science Bootcamp Batch 9
+# Data Science Bootcamp
 
 
-I'm learning data science bootcamp. Driven by a passion for leveraging data analytics to drive business growth and optimize revenue
+Dedicated to driving organizational growth through data-driven insights. Passionate about leveraging data to develop innovative products and services. Proficient in forecasting and statistical modeling using tools such as R, SQL, and spreadsheets. Skilled in communicating complex data findings to diverse audiences and collaborating effectively within cross-functional teams. Committed to continuous learning and staying updated with the latest data analysis techniques.
+
 
